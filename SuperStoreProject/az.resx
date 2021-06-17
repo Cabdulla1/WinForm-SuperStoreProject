@@ -1,0 +1,399 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btn_artir" xml:space="preserve">
+    <value>Artir</value>
+  </data>
+  <data name="btn_axtar" xml:space="preserve">
+    <value>Axtar</value>
+  </data>
+  <data name="btn_axtar_ad" xml:space="preserve">
+    <value>Axtar</value>
+  </data>
+  <data name="btn_axtar_kateqoriya" xml:space="preserve">
+    <value>Axtar</value>
+  </data>
+  <data name="btn_axtar_stok" xml:space="preserve">
+    <value>Axtar</value>
+  </data>
+  <data name="btn_bax" xml:space="preserve">
+    <value>Bax</value>
+  </data>
+  <data name="btn_berpa_kodu" xml:space="preserve">
+    <value>Bərpa Kodu</value>
+  </data>
+  <data name="btn_butun" xml:space="preserve">
+    <value>Butun</value>
+  </data>
+  <data name="btn_butun_mehsullar" xml:space="preserve">
+    <value>Butun Mehsullar</value>
+  </data>
+  <data name="btn_butun_satislar" xml:space="preserve">
+    <value>Butun Satislar</value>
+  </data>
+  <data name="btn_daxilol" xml:space="preserve">
+    <value>Daxil Ol</value>
+  </data>
+  <data name="btn_daxil_et" xml:space="preserve">
+    <value>Daxil Et</value>
+  </data>
+  <data name="btn_elave_et" xml:space="preserve">
+    <value>Elave Et</value>
+  </data>
+  <data name="btn_kassir" xml:space="preserve">
+    <value>Kassir</value>
+  </data>
+  <data name="btn_kassir_melumatlari" xml:space="preserve">
+    <value>Kassir Melumatlari</value>
+  </data>
+  <data name="btn_menecer" xml:space="preserve">
+    <value>Menecer</value>
+  </data>
+  <data name="btn_satici" xml:space="preserve">
+    <value>Satici</value>
+  </data>
+  <data name="btn_satici_melumatlari" xml:space="preserve">
+    <value>Satici Melumatlari</value>
+  </data>
+  <data name="btn_satis" xml:space="preserve">
+    <value>Satış</value>
+  </data>
+  <data name="btn_sifirla" xml:space="preserve">
+    <value>Sıfırla</value>
+  </data>
+  <data name="btn_sil" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="btn_yenile" xml:space="preserve">
+    <value>Yenile</value>
+  </data>
+  <data name="btn_yeni_kassir" xml:space="preserve">
+    <value>Yeni Kassir</value>
+  </data>
+  <data name="btn_yeni_satici" xml:space="preserve">
+    <value>Yeni Satici</value>
+  </data>
+  <data name="gb_2_tarix" xml:space="preserve">
+    <value>2 Tarixe Gore</value>
+  </data>
+  <data name="gb_axtar" xml:space="preserve">
+    <value>Ada Gore Axtar</value>
+  </data>
+  <data name="gb_isciler" xml:space="preserve">
+    <value>Isciler</value>
+  </data>
+  <data name="gb_isci_melumatlari" xml:space="preserve">
+    <value>Isci Melumatlarini Yenile</value>
+  </data>
+  <data name="gb_kassir" xml:space="preserve">
+    <value>Kassir</value>
+  </data>
+  <data name="gb_kassirler" xml:space="preserve">
+    <value>Kassirler</value>
+  </data>
+  <data name="gb_kateqoriya" xml:space="preserve">
+    <value>Kateqoriyaya Gore Axtar</value>
+  </data>
+  <data name="gb_mehsullar" xml:space="preserve">
+    <value>Mehsullar</value>
+  </data>
+  <data name="gb_satici" xml:space="preserve">
+    <value>Satici</value>
+  </data>
+  <data name="gb_saticilar" xml:space="preserve">
+    <value>Saticilar</value>
+  </data>
+  <data name="gb_satis" xml:space="preserve">
+    <value>Satış</value>
+  </data>
+  <data name="gb_satislar" xml:space="preserve">
+    <value>Satislar</value>
+  </data>
+  <data name="gb_satis_sil" xml:space="preserve">
+    <value>Satis Sil</value>
+  </data>
+  <data name="gb_stok_artir" xml:space="preserve">
+    <value>Stok Artir</value>
+  </data>
+  <data name="gb_tarix" xml:space="preserve">
+    <value>Tarixe Gore</value>
+  </data>
+  <data name="gb_yeni_mehsul" xml:space="preserve">
+    <value>Yeni Mehsul Elave Et</value>
+  </data>
+  <data name="lbl_ad" xml:space="preserve">
+    <value>Ad :</value>
+  </data>
+  <data name="lbl_adsoyad" xml:space="preserve">
+    <value>Ad Soyad</value>
+  </data>
+  <data name="lbl_alis" xml:space="preserve">
+    <value>Alis :</value>
+  </data>
+  <data name="lbl_alt_kat" xml:space="preserve">
+    <value>Alt Kat :</value>
+  </data>
+  <data name="lbl_email" xml:space="preserve">
+    <value>Email :</value>
+  </data>
+  <data name="lbl_id" xml:space="preserve">
+    <value>Id :</value>
+  </data>
+  <data name="lbl_istehsalci" xml:space="preserve">
+    <value>Istehsalci :</value>
+  </data>
+  <data name="lbl_kassir" xml:space="preserve">
+    <value>Kassir :</value>
+  </data>
+  <data name="lbl_kassirno" xml:space="preserve">
+    <value>Kassir No:</value>
+  </data>
+  <data name="lbl_kateqoriya" xml:space="preserve">
+    <value>Kateqoriya :</value>
+  </data>
+  <data name="lbl_kat_alt" xml:space="preserve">
+    <value>Alt Kateqoriya :</value>
+  </data>
+  <data name="lbl_kat_ust" xml:space="preserve">
+    <value>Ust Kateqorya :</value>
+  </data>
+  <data name="lbl_maas" xml:space="preserve">
+    <value>Maas :</value>
+  </data>
+  <data name="lbl_mehsulid" xml:space="preserve">
+    <value>Mehsul Id :</value>
+  </data>
+  <data name="lbl_mehsul_id" xml:space="preserve">
+    <value>Id :</value>
+  </data>
+  <data name="lbl_menecer" xml:space="preserve">
+    <value>Menecer</value>
+  </data>
+  <data name="lbl_menecerno" xml:space="preserve">
+    <value>Menecer No :</value>
+  </data>
+  <data name="lbl_menecer_sehifesi" xml:space="preserve">
+    <value>Menecer Sehifesi:</value>
+  </data>
+  <data name="lbl_pul" xml:space="preserve">
+    <value>Pul :</value>
+  </data>
+  <data name="lbl_qaliq" xml:space="preserve">
+    <value>Qaliq :</value>
+  </data>
+  <data name="lbl_qiymet" xml:space="preserve">
+    <value>Qiymet :</value>
+  </data>
+  <data name="lbl_satici_ad" xml:space="preserve">
+    <value>Ad :</value>
+  </data>
+  <data name="lbl_satici_soyad" xml:space="preserve">
+    <value>Soyad :</value>
+  </data>
+  <data name="lbl_satis" xml:space="preserve">
+    <value>Satis :</value>
+  </data>
+  <data name="lbl_satis_id" xml:space="preserve">
+    <value>Satis Id :</value>
+  </data>
+  <data name="lbl_say" xml:space="preserve">
+    <value>Say :</value>
+  </data>
+  <data name="lbl_sifre" xml:space="preserve">
+    <value>Sifre :</value>
+  </data>
+  <data name="lbl_son_ist" xml:space="preserve">
+    <value>Son Istifade Tarixi :</value>
+  </data>
+  <data name="lbl_stok" xml:space="preserve">
+    <value>Stok :</value>
+  </data>
+  <data name="lbl_tarix" xml:space="preserve">
+    <value>Tarix :</value>
+  </data>
+  <data name="lbl_tarix1" xml:space="preserve">
+    <value>Tarix 1 :</value>
+  </data>
+  <data name="lbl_tarix2" xml:space="preserve">
+    <value>Tarix 2 :</value>
+  </data>
+  <data name="lbl_tekrar" xml:space="preserve">
+    <value>Təkrar :</value>
+  </data>
+  <data name="lbl_telefon" xml:space="preserve">
+    <value>Telefon :</value>
+  </data>
+  <data name="lbl_toplam" xml:space="preserve">
+    <value>Toplam :</value>
+  </data>
+  <data name="lbl_ust_kat" xml:space="preserve">
+    <value>Ust Kat :</value>
+  </data>
+  <data name="lbl_yekun" xml:space="preserve">
+    <value>Yekun Qiymet :</value>
+  </data>
+  <data name="lbl_yeni_sifre" xml:space="preserve">
+    <value>Yeni Şifrə :</value>
+  </data>
+  <data name="lnk_lbl_sifreberpa" xml:space="preserve">
+    <value>Şifrəmi Unutdum</value>
+  </data>
+  <data name="lv_mehsul_ad" xml:space="preserve">
+    <value>MehsulAdi</value>
+  </data>
+  <data name="lv_mehsul_qiymet" xml:space="preserve">
+    <value>Qiymət</value>
+  </data>
+  <data name="lv_mehsul_say" xml:space="preserve">
+    <value>Say</value>
+  </data>
+  <data name="lv_mehsul_toplam" xml:space="preserve">
+    <value>Toplam</value>
+  </data>
+  <data name="rb_100" xml:space="preserve">
+    <value>100'den az</value>
+  </data>
+  <data name="rb_200" xml:space="preserve">
+    <value>200'den az</value>
+  </data>
+  <data name="tbc_elave_et_mehsul" xml:space="preserve">
+    <value>Elave Et Mehsul</value>
+  </data>
+  <data name="tbc_isciler" xml:space="preserve">
+    <value>Isciler</value>
+  </data>
+  <data name="tbc_isci_elave_et" xml:space="preserve">
+    <value>Isci Elave Et</value>
+  </data>
+  <data name="tbc_kassa" xml:space="preserve">
+    <value>Kassa</value>
+  </data>
+  <data name="tbc_mehsullar" xml:space="preserve">
+    <value>Mehsullar</value>
+  </data>
+  <data name="tbc_satislar" xml:space="preserve">
+    <value>Satislar</value>
+  </data>
+  <data name="tb_kassirno" xml:space="preserve">
+    <value>Kassir Nömrəsi</value>
+  </data>
+  <data name="tb_menecerno" xml:space="preserve">
+    <value>Menecer Nömrəsi</value>
+  </data>
+</root>
