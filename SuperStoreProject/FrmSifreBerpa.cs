@@ -123,8 +123,8 @@ namespace SuperStoreProject
         {
             kod = RandomCode();
             
-            string from = "infotechno003@gmail.com";
-            string pass = "@it12345678";
+            string from = "";
+            string pass = "";
             string to = tb_email.Text;
 
 
