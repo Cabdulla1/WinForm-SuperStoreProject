@@ -10,10 +10,9 @@ namespace SuperStoreProject
     class SqlServerConnection
     {
 
-        //Bazaya qosulmaq ucun baglanti adresi
         public SqlConnection Connect()
         {
-            SqlConnection con = new SqlConnection(@"Data Source=DESKTOP-6JDPHQ7\SQLEXPRESS;Initial Catalog=DbSuperStore;Integrated Security=True;MultipleActiveResultSets=True");
+            SqlConnection con = new SqlConnection(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=DbSuperStore;Integrated Security=True;MultipleActiveResultSets=True");
             con.Open();
             return con;
         }
